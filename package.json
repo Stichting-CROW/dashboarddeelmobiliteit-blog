@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^2.1.1",
+    "@fontsource/jetbrains-mono": "^4.5.12",
+    "@fontsource/roboto": "^4.5.8",
+    "astro": "^2.5.3",
+    "open-props": "^1.5.8",
+    "rehype-autolink-headings": "^6.1.1",
+    "sharp": "^0.32.1",
+    "svelte": "^3.59.1"
+  }
+}
