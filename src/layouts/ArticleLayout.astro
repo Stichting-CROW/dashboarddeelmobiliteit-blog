@@ -1,5 +1,5 @@
 ---
-const { id, cover, coverAlt, title, description, publicationDate, headings } = Astro.props;
+const { cover, coverAlt, title, description, publicationDate, headings } = Astro.props;
 
 import { Image } from "astro:assets";
 import PageLayout from "./PageLayout.astro";
@@ -12,13 +12,8 @@ import PublicationDate from "../components/PublicationDate.astro";
   <Image src={cover} alt={coverAlt} slot="header-before" />  
   <Fragment slot="header">
     <p>
-      Published on
       <PublicationDate {publicationDate} />
     </p>
-    <a
-      href={`https://github.com/thiloho/aurora/edit/main/src/content/blog/${id}`}
-      >Edit this page</a
-    >
   </Fragment>
   <slot />
 </PageLayout>
