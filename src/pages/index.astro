@@ -4,16 +4,16 @@ import { Image } from "astro:assets";
 import PageLayout from "../layouts/PageLayout.astro";
 import PublicationDate from "../components/PublicationDate.astro";
 
-const about = await getEntryBySlug("about", "about");
-const { Content } = await about.render();
+// const about = await getEntryBySlug("about", "about");
+// const { Content } = await about.render();
 
 const articles = (await getCollection("blog")).sort(
   (a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf()
 );
 ---
 
-<PageLayout title="aurora" description="Minimalistic blog theme built with Astro, focused on accessibility and usability.">
-  <Content />
+<PageLayout title="Blog" description="Minimalistic blog theme built with Astro, focused on accessibility and usability.">
+  <!-- <Content /> -->
   <div class="article-grid">
     {
       articles.map((article) => (
