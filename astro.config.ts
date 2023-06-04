@@ -3,31 +3,29 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import svelte from "@astrojs/svelte";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://aurora.thilohohlt.com",
   compressHTML: true,
   experimental: {
     assets: true,
-    inlineStylesheets: "auto",
+    inlineStylesheets: "auto"
   },
   scopedStyleStrategy: "class",
   markdown: {
-    rehypePlugins: [
-      rehypeHeadingIds,
-      [
-        rehypeAutolinkHeadings,
-        {
-          behavior: "wrap",
-          properties: {
-            class: "heading-linker",
-          },
-        },
-      ],
-    ],
+    rehypePlugins: [rehypeHeadingIds, [rehypeAutolinkHeadings, {
+      behavior: "wrap",
+      properties: {
+        class: "heading-linker"
+      }
+    }]]
   },
   image: {
-    service: sharpImageService(),
+    service: sharpImageService()
   },
   integrations: [svelte()],
+  output: "server",
+  adapter: cloudflare()
 });
