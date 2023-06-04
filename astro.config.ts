@@ -25,7 +25,5 @@ export default defineConfig({
   image: {
     service: sharpImageService()
   },
-  integrations: [svelte()],
-  output: "server",
-  adapter: cloudflare()
+  integrations: [svelte()]
 });
