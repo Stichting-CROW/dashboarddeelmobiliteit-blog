@@ -1,5 +1,5 @@
 ---
-cover: "../../assets/blog/gebruikersbeheer-voor-organisatiebeheerders/cover.jpg"
+cover: "../../assets/blog/gebruikersbeheer-voor-organisatiebeheerders/cover.png"
 coverAlt: "Cover image for the blog post"
 title: "Nieuw gebruikersbeheer"
 publicationDate: 2023-06-22
