@@ -7,7 +7,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://aurora.thilohohlt.com",
+  site: "https://blog-kml.dashboarddeelmobiliteit-blog.pages.dev",
   compressHTML: true,
   experimental: {
     assets: true,
