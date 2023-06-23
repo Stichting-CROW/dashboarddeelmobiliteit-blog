@@ -33,7 +33,7 @@ Gemeenten leggen verbodszones en microhubs vast het in het Dashboard Deelmobilit
 
 Daarnaast is het mogelijk om ook in realtime microhubs beschikbaar / niet beschikbaar te maken om bijvoorbeeld in het geval van drukte te voorkomen dat gebruikers van deelmobiliteit hun voertuig parkeren naast een microhub (waardoor alsnog overlast kan ontstaan). Het beschikbaar / niet beschikbaar maken van een hub kan handmatig of automatisch gebaseerd op een ingestelde maximale capaciteit, bijvoorbeeld '20 voertuigen'.
 
-### Een alternatief voor MDS: handmatig wijzigngen doorvoeren
+### Een alternatief voor MDS: handmatig wijzingen doorvoeren
 
 Uit gesprekken met de aanbieders bleek dat geautomatiseerde uitwisseling via MDS op korte termijn een te grote uitdaging is. Daarom hebben we een alternatief ontwikkeld om de eerste stap (het uitwisselen van de locaties van de microhubs en verbodszones) van het toepassen van deze werkwijze laagdrempeliger te maken.
 
