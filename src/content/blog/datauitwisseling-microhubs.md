@@ -1,12 +1,12 @@
 ---
 cover: "../../assets/blog/datauitwisseling-microhubs/cover.png"
 coverAlt: "Zone functionaliteit in dashboarddeelmobiliteit"
-title: "Datauitwisseling microhubs"
+title: "Datauitwisseling microhubs met aanbieders deelmobiliteit"
 publicationDate: 2023-06-23
 description: "In het dashboarddeelmobiliteit kunnen gemeenten microhubs en verbodsgebieden intekenen, de vastgelegde handmatig of geautomiseerd worden uitgewisseld met alle aanbieders van deelmobiliteit. Hoe werkt deze datauitwisseling precies?"
 ---
 
-## Datauitwisseling microhubs deelmobiliteit
+## Datauitwisseling microhubs met aanbieders deelmobiliteit
 
 Microhubs met daaromheen een verbod om te parkeren zijn een goede manier om het parkeren van deelvoertuigen op locaties waar de druk op de openbare ruimte groot is beter te sturen en daarmee overlast van hinderlijk geparkeerde scooters te beperken. Vorig voorjaar hebben we in samenwerking met de gemeente Den Haag functionaliteit aan het Dashboard Deelmobiliteit toegevoegd die de locaties van deze microhubs en verbodszones ook beschikbaar maakt in de digitale wereld (https://www.verkeersnet.nl/actueel/44883/nieuwe-tool-helpt-overlast-deelvoertuigen-te-beperken/) en daarmee o.a. de gemeente in staat stelt om de beschikbare capaciteit te monitoren. 
 
