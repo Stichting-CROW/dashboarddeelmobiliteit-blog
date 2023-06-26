@@ -8,7 +8,12 @@ description: "In het Dashboard Deelmobiliteit kunnen gemeenten microhubs en verb
 
 ## Data-uitwisseling microhubs met aanbieders deelmobiliteit
 
-Microhubs met daaromheen een parkeerverbod zijn een goede manier om het parkeren van deelvoertuigen beter te sturen op locaties waar de druk op de openbare ruimte groot is. Daarmee wordt overlast van hinderlijk geparkeerde voertuigen beperkt. Vorig voorjaar hebben we in samenwerking met de gemeente Den Haag functionaliteit toegevoegd aan het [Dashboard Deelmobiliteit](https://dashboarddeelmobiliteit.nl/), die de locaties van deze microhubs en verbodszones ook beschikbaar maakt in de digitale wereld (https://www.verkeersnet.nl/actueel/44883/nieuwe-tool-helpt-overlast-deelvoertuigen-te-beperken/). Hiermee hebben we onder andere de gemeentes in Nederland in staat gesteld om de beschikbare capaciteit te monitoren.
+Microhubs met daaromheen een parkeerverbod zijn een goede manier om het parkeren van deelvoertuigen beter te sturen op locaties waar de druk op de openbare ruimte groot is. Daarmee wordt overlast van hinderlijk geparkeerde voertuigen beperkt. Vorig voorjaar hebben we in samenwerking met de gemeente Den Haag functionaliteit toegevoegd aan het [Dashboard Deelmobiliteit](https://dashboarddeelmobiliteit.nl/), die de locaties van deze microhubs en verbodszones ook beschikbaar maakt in de digitale wereld (https://www.verkeersnet.nl/actueel/44883/nieuwe-tool-helpt-overlast-deelvoertuigen-te-beperken/). 
+Microhubs worden op steeds maar plaatsen in Nederland toegepast, een eenduidige uitwisseling van de locaties en capaciteit kunnen gemeenten en aanbieders helpen om de microhub een succes te maken.
+
+
+![Microhub Wilhelminapier](../../assets/blog/datauitwisseling-microhubs/wilhelminapier_hub.jpg)
+
 
 ## MDS
 
@@ -33,7 +38,7 @@ Gemeenten leggen verbodszones en microhubs vast het in het Dashboard Deelmobilit
 
 Daarnaast is het mogelijk om ook in realtime microhubs beschikbaar / niet beschikbaar te maken om bijvoorbeeld in het geval van drukte te voorkomen dat gebruikers van deelmobiliteit hun voertuig parkeren naast een microhub (waardoor alsnog overlast kan ontstaan). Het beschikbaar / niet beschikbaar maken van een hub kan handmatig of automatisch gebaseerd op een ingestelde maximale capaciteit, bijvoorbeeld '20 voertuigen'.
 
-### Een alternatief voor MDS: handmatig wijzingen doorvoeren
+### Een alternatief voor MDS: handmatig wijzigingen doorvoeren
 
 Uit gesprekken met de aanbieders bleek dat geautomatiseerde uitwisseling via MDS op korte termijn een te grote uitdaging is. Daarom hebben we een alternatief ontwikkeld om de eerste stap (het uitwisselen van de locaties van de microhubs en verbodszones) van het toepassen van deze werkwijze laagdrempeliger te maken.
 
@@ -49,6 +54,8 @@ Net als de parkeerzones en verbodszones kun je ook de KML-bestanden zelf downloa
 https://mds.dashboarddeelmobiliteit.nl/kml/export?municipality=GM0518
 
 Naast het _exporteren_ van KML's hebben we ook functionaliteit toegevoegd voor het importeren van KML-bestanden. Dit maakt het mogelijk om microhubs die eerder in een ander GIS-programma zijn ingetekend over te nemen in het Dashboard Deelmobiliteit. Op deze manier hopen we de drempel voor experimenteren van het uitwisselen van microhubs en verbodszones via het Dashboard te verlagen en voor alle aanbieders een manier van uitwisselen van data te realiseren die in elke gemeente in Nederland op dezelfde manier werkt.
+
+![Uploaden KML](../../assets/blog/datauitwisseling-microhubs/upload_kml.jpg)
 
 ## Toekomstige ontwikkeling
 
